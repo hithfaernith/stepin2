@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+h3{
+    font: bold 24px "Consolas";
+}
+
+#mainHeader{
+	background-color: rgb(76, 175, 80, 0.9);
+	color: rgb(255, 255, 255);
+	font-size: 36px;
+	line-height: 1.6em;
+}
+
+.barContainer p{
+	margin-left: 20px;
+}
+
+#navbar{
+	background-color: #333;
+	color:rgb(255, 255, 255);
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	margin-left: 20px;
+	margin-right: 30px;
+	line-height: 1.6em;
+}
+
+#navbar a:hover{
+	background-color: rgba(66, 73, 73, 0.9);
+}
+
+.carousel-container{
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+	width: 640px;
+	height: 480px;
+    margin-left: 5px;
+    border:5px solid #333;
+    border-radius: 30px;
+}
+.carousel-slide{
+    display: inline-flex;
+    position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-slide img{
+	min-width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+    border-radius: 28px;
+}
+
+#background{
+    position: absolute;
+    background-color: rgba(165, 214, 167, 0.7);
+    height: 100%;
+	width: 100%;
+}
+
+#container{
+    width: 80%;
+    height: 98%;
+    margin: auto;
+	background-color: #FDFEFE;
+}
+
+#titleBlock{
+	width: 100%;
+	margin: auto;
+	background-image: linear-gradient(to right top, #a8e06e, #a8e06b, #a8e069, #a8e066, #a8e063);
+    padding-top: 30px;
+    text-align: center;
+	padding-bottom: 30px;
+}
+
+#titleBlock h1{
+	font: 70px "Lucida Handwriting";
+	color:#333;
+}
+
+#titleBlock h2{
+    font: 36px "Ink Free";
+	color: #FDFEFE;
+}
+
+#content{
+    margin-top: 30px;
+    font: 22px "Bahnschrift Light";
+}
+
+#introduction{
+	line-height: 1.4em;
+    display: inline-block;
+    width: 40%;
+    margin-left: 20px;
+    height: 480px;
+    vertical-align: top;
+}
+
+#prevCover{
+	position: absolute;
+	top: 46%;
+	left:8px;
+	width: 45px;
+	height:80px;
+	background-color: rgba(242, 243, 244, 0.3);
+	cursor: pointer;
+    z-index: 1;
+}
+#nextCover{
+	position: absolute;
+	top: 46%;
+	right:8px;
+	width:45px;
+	height:80px;
+	background-color: rgba(242, 243, 244, 0.3);
+	cursor: pointer;
+    z-index: 1;
+}
+
+#prevCover i{
+	width: 0;
+	height: 0;
+	margin: 20px 0px 0px -10px;
+	display: inline-block;
+	border: 20px solid transparent;
+	border-right-color: rgba(247, 249, 249, 0.8);
+	content: '';
+}
+
+#nextCover i{
+	width: 0;
+	height: 0;
+	margin: 20px 0px 0px 15px;
+	display: inline-block;
+	border: 20px solid transparent;
+	border-left-color: rgba(247, 249, 249, 0.8);
+	content: '';
+}
+
+#prevCover:hover{
+	background-color: rgba(97, 97, 97, 0.3);
+}
+
+#nextCover:hover{
+	background-color: rgba(97, 97, 97, 0.3);
+}

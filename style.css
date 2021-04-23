@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	border: 0;
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	font-family: "Brush Script MT";
+	font-size:130px;
+	margin-top: -20px;
+	margin-bottom: 20px; 
+	color: rgb(242, 243, 244);
+}
+
+h2{
+	font-family: Ink Free;
+	font-size: 24px;
+	text-align: center;
+	color: rgb(242, 243, 244);
+}
+
+span{
+	position: relative;
+	font: bold 30px "MV Boli";
+	display: block;
+	margin: 0 auto;
+	top: 50%;
+	margin-top: -18px;
+	text-align: center;
+}
+
+#background{
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background-image: url("all_tiles_lightup.jpg"); */
+	background-image: url("photo6334442464106098153.jpg");
+}
+
+.carousel-slide{
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-slide img{
+	min-width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+}
+
+.container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.head{
+	position: absolute;
+	width: 1172px;
+	top:15%;
+	left:50%;
+	margin-left: -586px;
+}
+
+.options{
+	position: absolute;
+	width: 1172px;
+	top: 45%;
+	left: 50%;
+	margin-left: -586px;
+}
+
+.buttonLayer{
+	display: inline-block;
+	position: relative;
+
+	margin: 0 20px;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.button{
+	background-color: blue;
+	position: absolute;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 230px;
+	width: 230px;
+	border-radius: 50%;
+}
+
+.buttonLayer:hover{
+	background-color: black;
+	transform: scale(1.1);
+}
+
+
+#layer_1{
+		background: rgba(239, 154, 154, 0.7);
+}
+#button_1{
+	background: rgba(255, 82, 82, 0.9);
+}
+#layer_2{
+		background: rgba(144, 202, 249, 0.7);
+}
+#button_2{
+	background: rgba(30, 136, 229, 0.9);
+}
+#layer_3{
+		background: rgba(255, 204, 128, 0.7);
+}
+#button_3{
+	background: rgba(255, 215, 64, 0.9);
+}
+#layer_4{
+		background: rgba(165, 214, 167, 0.7);
+}
+#button_4{
+	background: rgb(76, 175, 80, 0.9);
+}
+#span_1{
+	color: rgb(211, 47, 47);
+}
+#span_2{
+	color: rgb(1, 87, 155);
+}
+#span_3{
+	color: rgb(255, 143, 0);
+}
+#span_4{
+	color:rgb(51, 105, 30);
+}
+#prevCover{
+	position: absolute;
+	top: 46%;
+	left:8px;
+	width: 45px;
+	height:80px;
+	background-color: rgba(242, 243, 244, 0.3);
+	cursor: pointer;
+}
+#nextCover{
+	position: absolute;
+	top: 46%;
+	right:8px;
+	width:45px;
+	height:80px;
+	background-color: rgba(242, 243, 244, 0.3);
+	cursor: pointer;
+}
+
+#prevCover i{
+	width: 0;
+	height: 0;
+	margin: 20px 0px 0px -10px;
+	display: inline-block;
+	border: 20px solid transparent;
+	border-right-color: rgba(247, 249, 249, 0.8);
+	content: '';
+}
+
+#nextCover i{
+	width: 0;
+	height: 0;
+	margin: 20px 0px 0px 15px;
+	display: inline-block;
+	border: 20px solid transparent;
+	border-left-color: rgba(247, 249, 249, 0.8);
+	content: '';
+}
+
+#prevCover:hover{
+	background-color: rgba(97, 97, 97, 0.3);
+}
+
+#nextCover:hover{
+	background-color: rgba(97, 97, 97, 0.3);
+}

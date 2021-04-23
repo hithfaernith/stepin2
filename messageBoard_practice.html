@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MessageBoard</title>
+</head>
+<body>
+    <div>
+        <p>Message:</p>
+        <textarea id="content" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div id="display_area">
+    </div>
+    <input id="btn" value="submit" type="button">
+</body>
+<script>
+    var display_area = document.getElementById("display_area");
+    var btn = document.getElementById("btn");
+    btn.onclick = function(){
+        var content_val = document.getElementById("content").value;
+        display_area.append(content_val)
+    }
+</script>
+</html>

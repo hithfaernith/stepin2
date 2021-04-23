@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MessageBoard</title>
+    <link rel="stylesheet" href="messageBoard_style.css">
+    <script src="https://kit.fontawesome.com/becb00a23e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="mainHeader">
+        <div class="barContainer">
+            <p>Game Platform</p>
+        </div>
+    </header>
+    <nav id="navbar">
+        <div class="barContainer">
+            <ul>
+                <li><a href="game_platform.html">Home</a></li>
+                <li><a href="game.html">Quick Game</a></li>
+                <li><a href="messageBoard.html">Leave Message</a></li>
+                <li><a href="leaderBoard.html">Leaderboard</a></li>
+                <li><a href="credits.html">Credits</a></li>
+            </ul>
+        </bav>
+    </nav>
+    <div id="background">
+        <div id=container>
+            <div id="titleBlock">
+                <h1>MessageBoard</h1>
+                <h2>Leave your footprint</h2>
+            </div>
+            <div id="content">
+                <div id="textBlock">
+                    <textarea name="comment" id="textArea" cols="30" rows="4" placeholder="Leave a message"></textarea>
+                    <div id="chooseBlock">
+                        <!-- <label class="selectBar">You are:</label>
+                        <select id="bar" class="optionSelect">
+                            <option class="selectBar" value="prof/staff">Professor/Stuff</option>
+                            <option class="selectBar" value="stu">Student</option>
+                        </select> -->
+                        <label class="selectBar">What is your name (Optional):</label>
+                        <input id = "name" class="selectBar optionSelect" type="text" placeholder="Nobody">
+                        <br>
+                        <span class="selectBar">How do you feel about this game platform?</span>
+                        <br>
+                        <input type="radio" name="survey" value="This is torture">
+                        <span class="selectBar">This is torture (Are you sure?)</span>
+                        <input type="radio" name="survey" value="Okay">
+                        <span class="selectBar">Okay (Ok fine)</span>
+                        <input type="radio" name="survey" value="Very good">
+                        <span class="selectBar">Very good (You are so handsome/beautiful)</span>
+                        <br>
+                        <input type="radio" name="survey" value="Excellent">
+                        <span class="selectBar">Excellent (Word can no longer express my idolization of you!)</span>
+                        <br>
+                        <button id="sendButton">
+                            <span id="sendSpan">Send</span>
+                        </button>
+                    </div>
+                </div>
+                <div id="commentBlock">
+                    <div id="comments">
+                        <!-- <div class="comment">
+                            <div class="image">
+                                <img src="user_image.png" alt="ops">
+                            <div class="commentContent">
+
+                            </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="image">
+                                <img src="user_image.png" alt="ops">
+                            <div class="commentContent">
+                                
+                            </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="messageBoard.js"></script>
+</body>
+</html>
