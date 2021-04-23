@@ -109,10 +109,10 @@ h3{
 }
 
 #introduction{
-	line-height: 1.4em;
+    line-height: 1.4em;
     display: inline-block;
     width: 40%;
-    margin-left: 20px;
+    margin-left: 10px;
     height: 480px;
     vertical-align: top;
 }
